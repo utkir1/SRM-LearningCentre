@@ -1,8 +1,15 @@
 import express from 'express';
+import modules from './modules/modules.js';
 
 const app = express()
 
+app.use(express.json());
 
 
 
-app.listen(3000, ()=>console.log("running at 3000"))
+app.use(modules)
+
+
+
+
+app.listen(process.env.PORT || 3000, () => console.log(process.env.PORT || 3000));
