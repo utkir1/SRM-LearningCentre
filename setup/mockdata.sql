@@ -65,3 +65,8 @@ insert into
   values
     ( 'o''qituvchilar maoshi', 15000000, '18.04.2023'),
     ( 'kommunal', 1200000, '18.03.2023');
+
+    insert into
+  users ( pos_ref_id , first_name, last_name, gender, contact, email, come_date, left_date )
+  values
+    (5, 'jo''rabek', 'ahmadov', 1, '880245548', 'skdjbcfsjkdcb@gmail.com', '01.11.2022', '03.05.2023' );
